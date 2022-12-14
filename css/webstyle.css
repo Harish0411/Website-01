@@ -288,6 +288,14 @@ header{
      width:50%;
 	 padding:40px; 
 }
+.why-us-col2{
+     width:50%;
+     background:url("img/why-us.jpg");
+	 background-size:cover;
+	 display:flex;
+	 align-items:center;
+	 justify-content:center;
+}
 .why-us-content h3{
      font-size:25px;
 }
@@ -295,15 +303,7 @@ header{
      font-size:18px;
 	 color:#343a40;
 }
-.why-us-col2{
-     width:50%;
-	 position:relative;
-     z-index:0;	 
-}
 .icon1 {
-     position:absolute;
-	 top:35%;
-	 left:45%;
 	 font-size:30px;
 	  color:#fff;
 	 height:80px;
@@ -621,11 +621,17 @@ summary:hover{
 .team-info p{
      padding-top:10px;
 	 color:#bababa;
+	 font-style:italic;
 }
 .team-card:hover .team-icon {
     background:#008000ab; 
-	opacity:1;
+opacity:1;
 }
+.team-card:hover .team-image{
+     overflow:hidden;
+}
+
+
 .team-icon{
      position:absolute;
 	 bottom:32%;
@@ -776,13 +782,13 @@ details{
 }
 .contact-col-6{
      width:60%;
-	
 }
 
 .contact-info{
      padding:35px;
 	 background:#fff;
 	 width:100%;
+	 padding:62px;
 	 
 }
 .contact-info h3{
@@ -814,6 +820,7 @@ details{
 	 width:100%;
 	 border-radius:5px;
 	 background:#fff;
+	 padding:36px;
 }
 .row{
      display:flex;
