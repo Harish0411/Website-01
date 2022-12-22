@@ -61,7 +61,17 @@
 	  background:#fff;
 	  z-index:100;
 	  padding-top:20px; 
-	  display:none;
+
+}
+.mobile-nav{
+     display:none;
+	 padding-right:25px;
+}
+.mobile-nav i{
+     font-size:34px;
+}
+.logo img{
+     padding:0 25px;
 }
 .header-container{
      width:90%;
@@ -315,7 +325,7 @@
 	     color: #959595;
 }
 .service-col2 img{
-     max-width:110%;
+     max-width:100%;
 }
 .service-icon i{
      font-size:45px;
@@ -1507,6 +1517,14 @@ details{
 /* ------------------------------------------ Media queries --------------------------------------------------------------------------*/
 
 @media (min-width:320px){
+/* header section */
+
+.mobile-nav{
+     display:block;
+}
+.nav-sec{
+     display:none;
+}
 /* about section */
 
   .about-container{
@@ -1705,6 +1723,13 @@ details{
 
 }
 @media (min-width:690px){
+/* header section */
+.mobile-nav{
+     display:block;
+}
+.nav-sec{
+     display:none;
+}
 /* about section */
 
   .about-container{
@@ -1897,6 +1922,13 @@ details{
 
 }
 @media (min-width:1020px){
+/* header section */
+.mobile-nav{
+     display:none;
+}
+.nav-sec{
+     display:block;
+}
 /* about section */
   .about-container{
      width:85%;
